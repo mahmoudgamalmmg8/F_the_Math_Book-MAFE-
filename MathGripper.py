@@ -8,8 +8,9 @@ import os
 import img2pdf
 browser = webdriver.Chrome(ChromeDriverManager().install())
 browser.get("https://eng.synceg.net/my/")
-browser.find_element("id","username").send_keys("4230780")
-browser.find_element("id","password").send_keys("102597")
+#
+browser.find_element("id","username").send_keys("UR ID CUZ ONLY IDOITS PUT THEIR REAL INFO HERE ")
+browser.find_element("id","password").send_keys("UR PASSWORD CUZ ONLY IDOITS PUT THEIR REAL INFO HERE")
 browser.find_element("id","loginbtn").click()
 print("this tool created by the one and only mahmoudgamlmmg8 ps(it's only gonna work on modern academy books and maybe other moodle based website)")
 link=input("Enter your book link: ")
